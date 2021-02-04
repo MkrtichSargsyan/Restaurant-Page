@@ -1,0 +1,25 @@
+{
+  "name": "Restaurant-Page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build":"webpack",
+    "watch":"npx webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MkrtichSargsyan/Restaurant-Page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MkrtichSargsyan/Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/MkrtichSargsyan/Restaurant-Page#readme",
+  "devDependencies": {
+    "webpack": "^5.20.2",
+    "webpack-cli": "^4.5.0"
+  }
+}

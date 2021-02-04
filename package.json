@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build":"webpack",
-    "watch":"npx webpack --watch"
+    "build": "webpack",
+    "watch": "npx webpack --watch",
+    "start":"webpack serve --mode=development --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,13 @@
   },
   "homepage": "https://github.com/MkrtichSargsyan/Restaurant-Page#readme",
   "devDependencies": {
+    "css-loader": "^5.0.1",
+    "postcss": "^8.2.4",
+    "postcss-loader": "^5.0.0",
+    "style-loader": "^2.0.0",
+    "tailwindcss": "^2.0.2",
     "webpack": "^5.20.2",
-    "webpack-cli": "^4.5.0"
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
   }
 }

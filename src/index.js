@@ -1,3 +1,1 @@
-console.log('sdfsdf');
-console.log('sdfsdf');
-console.log('sdfsdf');
+import './styles.css'

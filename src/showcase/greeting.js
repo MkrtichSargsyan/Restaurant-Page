@@ -1,8 +1,8 @@
 export default (() => {
   const greeting = document.createElement("div");
-  greeting.classList.add("w-5/12", "absolute", "top-40", "left-32");
+  greeting.classList.add("w-3/4","absolute", "top-40", "left-16", "md:left-32");
   greeting.innerHTML = `
-    <h1 class='text-4xl text-white leading-relaxed mb-3'>
+    <h1 class='text-2xl  text-white leading-relaxed mb-3'>
       Skinny people are <br>
       easier to kidnap.<br>
       Stay safe.<br>

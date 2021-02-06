@@ -1,10 +1,11 @@
-import '../node_modules/normalize.css'
-import './styles/styles.css'
-import './styles/custom_styles.css'
+import "../node_modules/normalize.css";
+import "./styles/styles.css";
+import "./styles/custom_styles.css";
 
-import showcase from './showcase/showcase.js'
+import showcase from "./showcase/showcase.js";
+import footer from "./footer/footer";
 
-const content = document.getElementById('content')
+const content = document.getElementById("content");
 
-showcase
-content.appendChild(showcase)
+content.appendChild(showcase);
+content.appendChild(footer);

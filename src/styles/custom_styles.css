@@ -42,6 +42,11 @@ body {
   min-height:200px;
 }
 
+.interior_big_image{
+  min-height:400px;
+  width:65%;
+}
+
 .border{
   border:1px solid gray;
 }

@@ -1,6 +1,5 @@
 import menu1 from "../images/m1.jpeg";
 import menu3 from "../images/m2.jpg";
-import menu4 from "../images/m4.jpg";
 
 export default (() => {
   const menu_section = document.createElement("section");
@@ -8,7 +7,7 @@ export default (() => {
     "bg-white",
     "w-full",
     "flex",
-    'flex-col',
+    "flex-col",
     "md:flex-row",
     "justify-between",
     "p-12",
@@ -18,12 +17,7 @@ export default (() => {
   // left side
 
   const menu_section_left_side = document.createElement("div");
-  menu_section_left_side.classList.add(
-    "flex-1",
-    "relative",
-    "h-80",
-    "mr-10"
-  );
+  menu_section_left_side.classList.add("flex-1", "relative", "h-80", "mr-10");
 
   const bigImage = document.createElement("div");
   bigImage.classList.add(
@@ -58,7 +52,7 @@ export default (() => {
     "flex",
     "flex-col",
     "pt-20",
-    'md:pl-28',
+    "md:pl-28"
   );
 
   const menu_section_title = document.createElement("h2");
@@ -70,7 +64,14 @@ export default (() => {
   menu_section_description.innerText = `Dear friend! Welcome to our restaurant. All dishes are prepared, issued and served in the best traditions of Armenian cuisine. Luxurios selection of drinks. Here you can read more about the menu.`;
 
   const menu_section_button = document.createElement("button");
-  menu_section_button.classList.add("text-left", "w-min",'border','px-10','py-1','text-gray-700');
+  menu_section_button.classList.add(
+    "text-left",
+    "w-min",
+    "border",
+    "px-10",
+    "py-1",
+    "text-gray-700"
+  );
   menu_section_button.innerText = "MENU";
 
   menu_section_right_side.appendChild(menu_section_title);

@@ -11,8 +11,7 @@ export default (() => {
     "md:flex-row",
     "justify-between",
     "p-12",
-    "pb-40",
-    'pt-24'
+    "py-20",
   );
 
   // left side
@@ -22,7 +21,8 @@ export default (() => {
     "flex-1",
     "flex",
     "flex-col",
-    "md:pr-28"
+    "md:pr-28",
+    'mt-8'
   );
 
   const interior_section_title = document.createElement("h2");
@@ -30,9 +30,9 @@ export default (() => {
   interior_section_title.innerText = "OUR INTERIOR";
 
   const interior_section_description = document.createElement("p");
-  interior_section_description.classList.add("text-sm", "text-gray-300", "mb-10",'flex','flex-col');
+  interior_section_description.classList.add("text-sm",'w-5/6', "text-gray-300", "mb-10",'flex','flex-col');
 
-  interior_section_description.innerHTML = `<span class='mb-2'>Our restaurant has 2 rooms - a large bright room with panoramic windows and a room in dark colors. Here you can gather a large company or have a date.</span>
+  interior_section_description.innerHTML = `<span class='mb-8'>Our restaurant has 2 rooms - a large bright room with panoramic windows and a room in dark colors. Here you can gather a large company or have a date.</span>
   <span>We sincerely hope that you will enjoy visiting our restaurant.</span>`;
 
   const interior_section_button = document.createElement("button");
@@ -74,7 +74,7 @@ export default (() => {
     "bg-center",
     "bg-no-repeat",
     "bg-cover",
-    '-top-44',
+    '-top-36',
     "right-0",
     'absolute'
   );

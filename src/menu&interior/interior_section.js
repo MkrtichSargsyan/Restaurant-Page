@@ -11,7 +11,8 @@ export default (() => {
     "md:flex-row",
     "justify-between",
     "p-12",
-    "py-20",
+    "pb-80",
+    "md:py-20"
   );
 
   // left side
@@ -19,10 +20,12 @@ export default (() => {
   const interior_section_left_side = document.createElement("div");
   interior_section_left_side.classList.add(
     "flex-1",
+    "min-w-1/2",
     "flex",
     "flex-col",
     "md:pr-28",
-    'mt-8'
+    "mb-40",
+    "md:mb-0"
   );
 
   const interior_section_title = document.createElement("h2");
@@ -30,7 +33,14 @@ export default (() => {
   interior_section_title.innerText = "OUR INTERIOR";
 
   const interior_section_description = document.createElement("p");
-  interior_section_description.classList.add("text-sm",'w-5/6', "text-gray-300", "mb-10",'flex','flex-col');
+  interior_section_description.classList.add(
+    "text-sm",
+    "w-5/6",
+    "text-gray-300",
+    "mb-10",
+    "flex",
+    "flex-col"
+  );
 
   interior_section_description.innerHTML = `<span class='mb-8'>Our restaurant has 2 rooms - a large bright room with panoramic windows and a room in dark colors. Here you can gather a large company or have a date.</span>
   <span>We sincerely hope that you will enjoy visiting our restaurant.</span>`;
@@ -53,30 +63,38 @@ export default (() => {
   // right side
 
   const interior_section_right_side = document.createElement("div");
-  interior_section_right_side.classList.add("flex-1", "relative", "h-4/6");
-
+  interior_section_right_side.classList.add(
+    "flex-1",
+    "flex",
+    "flex-row",
+    "relative",
+  );
 
   const smallImage = document.createElement("div");
   smallImage.classList.add(
-    "h-80",
-    "w-80",
+    'menu_small_img',
+    "absolute",
+    "h-full",
+    "w-3/5",
     "bg-no-repeat",
     "bg-cover",
-    "bg-center",
-    'absolute',
-    'ml-16'
+    "bg-center"
   );
   smallImage.style.backgroundImage = `url(${i1})`;
 
   const bigImage = document.createElement("div");
   bigImage.classList.add(
-    "interior_big_image",
+    "absolute",
+    'right-0',
+    "md:right-0",
+    '-bottom-44',
+    "md:bottom-16",
+    'h-64',
+    "md:h-96",
+    "w-2/3",
     "bg-center",
     "bg-no-repeat",
-    "bg-cover",
-    '-top-36',
-    "right-0",
-    'absolute'
+    "bg-cover"
   );
   bigImage.style.backgroundImage = `url(${i2})`;
 

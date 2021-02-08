@@ -1,15 +1,12 @@
 import "../node_modules/normalize.css";
 import "./styles/styles.css";
 import "./styles/custom_styles.css";
+import router from "./router";
 
-import showcase from "./showcase/showcase.js";
-import menu_section from "./menu&interior/menu_section";
-import footer from "./footer/footer";
-import interior_section from "./menu&interior/interior_section";
 
 const content = document.getElementById("content");
 
-content.appendChild(showcase);
-content.appendChild(menu_section);
-content.appendChild(interior_section);
-content.appendChild(footer);
+const current_path = window.location.hash
+
+
+router.render_page(current_path,content)

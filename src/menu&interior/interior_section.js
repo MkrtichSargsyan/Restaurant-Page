@@ -35,7 +35,7 @@ export default (() => {
   const interior_section_description = document.createElement("p");
   interior_section_description.classList.add(
     "text-sm",
-    "w-5/6",
+    "md:w-5/6",
     "text-gray-300",
     "mb-10",
     "flex",
@@ -67,12 +67,12 @@ export default (() => {
     "flex-1",
     "flex",
     "flex-row",
-    "relative",
+    "relative"
   );
 
   const smallImage = document.createElement("div");
   smallImage.classList.add(
-    'menu_small_img',
+    "menu_small_img",
     "absolute",
     "h-full",
     "w-3/5",
@@ -85,11 +85,11 @@ export default (() => {
   const bigImage = document.createElement("div");
   bigImage.classList.add(
     "absolute",
-    'right-0',
+    "right-0",
     "md:right-0",
-    '-bottom-44',
+    "-bottom-44",
     "md:bottom-16",
-    'h-64',
+    "h-64",
     "md:h-96",
     "w-2/3",
     "bg-center",

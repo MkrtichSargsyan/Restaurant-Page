@@ -37,13 +37,11 @@ body {
   background-color: #1c1c1c;
 }
 
-.menu_small_img{
-  min-width:200px;
-  min-height:200px;
+.menu_small_img {
+  min-width: 200px;
+  min-height: 200px;
 }
 
-
-
-.border{
-  border:1px solid gray;
+.border {
+  border: 1px solid gray;
 }

@@ -22,15 +22,16 @@
   "devDependencies": {
     "css-loader": "^5.0.1",
     "file-loader": "^6.2.0",
-    "postcss": "^8.2.4",
     "postcss-loader": "^5.0.0",
     "style-loader": "^2.0.0",
-    "tailwindcss": "^2.0.2",
     "webpack": "^5.20.2",
     "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "normalize.css": "^8.0.1"
+    "autoprefixer": "^9",
+    "normalize.css": "^8.0.1",
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
 }

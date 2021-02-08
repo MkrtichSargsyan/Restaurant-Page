@@ -1,6 +1,8 @@
 import { PageFlip } from "page-flip";
 import menu_table from "../images/menu_table.jpg";
 import menu_cover from "../images/menu_cover.jpg";
+import menu_page_cover1 from "../images/menu_page_cover1.jpg";
+import menu_page_cover2 from "../images/menu_page_cover2.jpg";
 import ss from "../images/ss.png";
 
 export default (content) => {
@@ -22,28 +24,32 @@ export default (content) => {
         <div id="book" class='overflow-hidden mr-16 mt-16'>
 
             <div id='menu_cover' class="my-page" data-density="hard">
-              <img src=${menu_cover} class = 'h-full'></img>
+              <img src=${menu_cover} class = 'h-full w-full'></img>
             </div>
-            <div class="my-page bg-red-300">
+            <div class="my-page menu">
+              <img src=${menu_page_cover1} class = 'h-full w-full'></img>
                 Page one
             </div>
-            <div class="my-page bg-red-500">
+            <div class="my-page opacity-95">
+                <img src=${menu_page_cover2} class = 'h-full w-full'></img>
                 Page two
             </div>
-            <div class="my-page bg-red-600">
+            <div class="my-page">
+              <img src=${menu_page_cover1} class = 'h-full w-full'></img>
                 Page three
             </div>
-            <div class="my-page bg-red-700">
+            <div class="my-page opacity-95">
+               <img src=${menu_page_cover2} class = 'h-full w-full'></img>
                 Page four
             </div>
-            <div class="my-page bg-red-800" data-density="hard">
-              <img src=${menu_cover} class = 'h-full'></img>
+            <div class="my-page" data-density="hard">
+              <img src=${menu_cover} class = 'h-full w-full'></img>
             </div>
          </div>
   `;
 
   const pageFlip = new PageFlip(document.getElementById("book"), {
-    width: 250,
+    width: 300,
     height: 400,
     showCover: true,
     maxShadowOpacity: 1,

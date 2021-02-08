@@ -1,4 +1,3 @@
-import logo_image from "../images/logo.png";
 import s from "../images/s.png";
 import { facebook, instagram, twitter } from "./social_items";
 

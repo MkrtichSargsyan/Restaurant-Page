@@ -1,8 +1,6 @@
 import menu_page_cover1 from "../images/menu_page_cover1.jpg";
-import z1 from "../images/z1.jpeg";
-import z2 from "../images/z2.jpeg";
 
-export default (title=null) => {
+export default (title=null,foods,names) => {
   const page = document.createElement("div");
   page.classList.add("my-page", "relative");
 
@@ -16,30 +14,38 @@ export default (title=null) => {
     <article class = 'absolute h-full w-full'>
       <h2 class= 'text-center italic font-black text-gray-200 text-2xl'>${title ? title : ''}</h2>
       <div class = 'flex justify-between w-full h-20 px-4 my-2'>
-        <img src=${z1} alt="k_img" class='h-full mr-10'/>
-        <div class = 'w-full overflow-hidden text-white'>
-          <p class = 'text-center border-b-2 border-dotted'>Khashlama</p>
+        <div  class='h-full flex-1'>
+          <img src=${foods[0]} alt="k_img" class='h-full w-full'/>
+        </div>
+        <div class = 'text-white ml-10 flex-1'>
+          <p class = 'text-center border-b-2 border-dotted'>${names[0]}</p>
           <p class = 'text-right'>$-40</p>
         </div>
       </div>
       <div class = 'flex justify-between w-full h-20 px-4 my-2'>
-          <img src=${z1} alt="k_img" class='h-full mr-10'/>
-          <div class = 'w-full overflow-hidden text-white'>
-            <p class = 'text-center border-b-2 border-dotted'>Khashlama</p>
+        <div  class='h-full flex-1'>
+          <img src=${foods[1]} alt="k_img" class='h-full w-full'/>
+        </div>
+          <div class = 'text-white ml-10 flex-1'>
+            <p class = 'text-center border-b-2 border-dotted'>${names[1]}</p>
             <p class = 'text-right'>$-40</p>
           </div>
       </div>
       <div class = 'flex justify-between w-full h-20 px-4 my-2'>
-        <img src=${z1} alt="k_img" class='h-full mr-10'/>
-        <div class = 'w-full overflow-hidden text-white'>
-            <p class = 'text-center border-b-2 border-dotted'>Khashlama</p>
+        <div  class='h-full flex-1'>
+          <img src=${foods[2]} alt="k_img" class='h-full w-full'/>
+        </div>
+        <div class = 'text-white ml-10 flex-1'>
+            <p class = 'text-center border-b-2 border-dotted'>${names[2]}</p>
             <p class = 'text-right'>$-40</p>
         </div>
       </div>
       <div class = 'flex justify-between w-full h-20 px-4 my-1'>
-        <img src=${z1} alt="k_img" class='h-full mr-10'/>
-        <div class = 'w-full overflow-hidden text-white'>
-            <p class = 'text-center border-b-2 border-dotted'>Khashlama</p>
+        <div  class='h-full flex-1'>
+          <img src=${foods[3]} alt="k_img" class='h-full w-full'/>
+        </div>
+        <div class = 'text-white ml-10 flex-1'>
+            <p class = 'text-center border-b-2 border-dotted'>${names[3]}</p>
             <p class = 'text-right'>$-40</p>
         </div>
       </div>
@@ -52,6 +58,9 @@ export default (title=null) => {
   return page;
 };
 
-// <div class="my-page flex justify-center">
-// <img src=${menu_page_cover1} class ='h-full w-full absolute'></img>
-// </div>`;
+
+// sorrel soup
+// ghapama
+// Harees
+// Khash
+// Lavash Baked Trout Fish

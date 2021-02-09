@@ -25,7 +25,7 @@ export default (() => {
   nav_items.innerHTML = `
       <li route='/' class='mx-4 hover:text-gray-500 cursor-pointer'>home<li>
       <li route='#menu' class='mx-4 hover:text-gray-500 cursor-pointer'>menu<li>
-      <li route='#contact' class='mx-4 hover:text-gray-500 cursor-pointer'>contacts<li>
+      <li class='mx-4 hover:text-gray-500 cursor-pointer'>contacts<li>
       <li class='mx-4 hover:text-gray-500 cursor-pointer'>interior<li>
   `;
 

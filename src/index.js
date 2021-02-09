@@ -6,32 +6,31 @@ import header from "./header";
 
 const content = document.getElementById("content");
 
-router.render_page(window.location.hash,content)
-window.addEventListener("hashchange", (e)=>router.render_page(window.location.hash,content), {});
+router.render_page(window.location.hash, content);
+window.addEventListener(
+  "hashchange",
+  (e) => router.render_page(window.location.hash, content),
+  {}
+);
 
+content.parentNode.insertBefore(header, content);
 
-content.parentNode.insertBefore(header,content);
+const target = document.getElementById("menu_section");
 
-const checker =document.getElementById('menu_section');
-let a;
-if (checker!==null){
-  a =checker.getBoundingClientRect().top+window.scrollY
+if (target !== null) {
+  document.addEventListener("scroll", () => {
+    if (window.scrollY >= target.getBoundingClientRect().top + window.scrollY) {
+      header.classList.remove("opacity-0");
+    } else {
+      header.classList.add("opacity-0");
+    }
+  });
 }
 
-document.addEventListener('scroll', ()=>{
-  
-  if (window.scrollY >=a){
-    header.classList.remove('opacity-0')
-  }else{
-    header.classList.add('opacity-0')
-  }
+let nav_buttons = Array.from(document.querySelectorAll("[route]"));
+nav_buttons.forEach((route) => {
+  route.addEventListener("click", (e) => {
+    let path = e.target.attributes[0].value;
+    window.location.hash = path;
+  });
 });
-
-
-let nav_buttons = Array.from(document.querySelectorAll('[route]'));
-nav_buttons.forEach(route=>{
-  route.addEventListener('click',(e)=>{
-    let path = e.target.attributes[0].value
-    window.location.hash = path
-  })
-})

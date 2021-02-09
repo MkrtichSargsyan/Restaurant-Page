@@ -3,6 +3,7 @@ import menu3 from "../images/m2.jpg";
 
 export default (() => {
   const menu_section = document.createElement("section");
+  menu_section.id = 'menu_section';
   menu_section.classList.add(
     "bg-white",
     "w-full",

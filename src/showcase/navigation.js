@@ -27,10 +27,10 @@ export default (() => {
   const nav_items = document.createElement("ul");
   nav_items.classList.add('nav_items','mt-28')
   nav_items.innerHTML = `
-      <li>menu<li>
+      <li route='#menu'>menu<li>
+      <li route='#contact'>contacts<li>
       <li>interior<li>
       <li>about us<li>
-      <li>contacts<li>
   `;
 
 

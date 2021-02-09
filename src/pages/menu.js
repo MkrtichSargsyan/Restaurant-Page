@@ -12,14 +12,17 @@ import hot3 from "../images/hot3.jpeg";
 import hot4 from "../images/hot4.jpg";
 import hot5 from "../images/hot5.jpeg";
 import hot6 from "../images/hot6.jpg";
-import hot7 from "../images/hot3.jpeg";
+import hot7 from "../images/hot7.jpg";
 import hot8 from "../images/hot8.jpg";
 import salad from "../images/salad.jpg";
 import arax from "../images/arax.jpg";
+import header from "../header";
 
 // --------------foods
 
 export default (content) => {
+  content.innerHTML = ''
+  header.classList.remove('opacity-0')
   const menu = document.createElement("section");
   menu.classList.add(
     "w-full",
@@ -36,7 +39,7 @@ export default (content) => {
   content.appendChild(menu);
 
   menu.innerHTML = `
-        <div id="book" class='overflow-hidden mr-16 mt-16'>
+        <div id="book" class='overflow-hidden mr-16 mt-24'>
             <div id='menu_cover' class="my-page" data-density="hard">
               <div id='menu_logo' class = 'w-1/2 h-16 bg-no-repeat absolute inset-1/2 bg-contain'></div>
               <h1 class = 'text-4xl top-4 left-4 absolute text-white' style ="font-family: 'Dancing Script', cursive">

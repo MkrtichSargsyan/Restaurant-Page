@@ -16,7 +16,7 @@ Restaurant page built with ES6 modules, using webpack.
 
 ## Live Demo
 
-<a href= "https://rawcdn.githack.com/RICKCOYL/embedding-images-and-video2/a77e9d502c03f5f9b1719a0b180b90f8b2b754f7/index.html" target="_blank">Live version</a>
+<a href= "https://mkrtichsargsyan.github.io/Restaurant-Page/#menu" target="_blank">Live version</a>
 
 ## Author
 

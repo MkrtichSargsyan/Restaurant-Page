@@ -22,7 +22,8 @@
         "js": "always"
       }
       
-   ],
+   ]
+  },
   "ignorePatterns": [
     "dist/",
     "build/"

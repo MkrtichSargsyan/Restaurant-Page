@@ -16,7 +16,23 @@ Restaurant page built with ES6 modules, using webpack.
 
 ## Live Demo
 
-<a href= "https://mkrtichsargsyan.github.io/Restaurant-Page/#menu" target="_blank">Live version</a>
+<a href= "https://mkrtichsargsyan.github.io/Restaurant-Page/" target="_blank">Live version</a>
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+### Setup
+
+```
+yarn install
+```
+
+### Usage
+
+```
+npm run start
+```
 
 ## Author
 

@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import { PageFlip } from 'page-flip';
 import menuTable from '../images/menuTable.jpg';
 import menuCover from '../images/menuCover.jpg';

@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import '../node_modules/normalize.css';
 import './styles/styles.css';
 import './styles/custom_styles.css';

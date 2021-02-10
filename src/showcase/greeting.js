@@ -1,11 +1,11 @@
 export default (() => {
-  const greeting = document.createElement("div");
+  const greeting = document.createElement('div');
   greeting.classList.add(
-    "w-3/4",
-    "absolute",
-    "top-40",
-    "left-16",
-    "md:left-32"
+    'w-3/4',
+    'absolute',
+    'top-40',
+    'left-16',
+    'md:left-32',
   );
   greeting.innerHTML = `
     <h1 class='text-2xl md:text-4xl text-white leading-relaxed mb-3'>

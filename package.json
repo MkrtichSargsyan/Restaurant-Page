@@ -20,10 +20,18 @@
   },
   "homepage": "https://github.com/MkrtichSargsyan/Restaurant-Page#readme",
   "devDependencies": {
+    "babel-eslint": "10.1.x",
     "css-loader": "^5.0.1",
+    "eslint": "6.8.x",
+    "eslint-config-airbnb-base": "14.1.x",
+    "eslint-plugin-import": "2.20.x",
     "file-loader": "^6.2.0",
     "postcss-loader": "^5.0.0",
     "style-loader": "^2.0.0",
+    "stylelint": "13.3.x",
+    "stylelint-config-standard": "20.0.x",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "3.17.x",
     "webpack": "^5.20.2",
     "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^3.11.2"

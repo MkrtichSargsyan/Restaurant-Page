@@ -1,22 +1,22 @@
-import ss from "../images/ss.png";
+import ss from '../images/ss.png';
 
 export default (() => {
-  const footer = document.createElement("footer");
+  const footer = document.createElement('footer');
   footer.classList.add(
-    "footer",
-    "flex",
-    "w-full",
-    "justify-around",
-    "px-16",
-    "sm:px-40",
-    "md:px-8",
+    'footer',
+    'flex',
+    'w-full',
+    'justify-around',
+    'px-16',
+    'sm:px-40',
+    'md:px-8',
 
-    "lg:px-32",
-    "pt-16",
-    "md:pt-32",
-    "pb-16",
-    "flex-col",
-    "md:flex-row"
+    'lg:px-32',
+    'pt-16',
+    'md:pt-32',
+    'pb-16',
+    'flex-col',
+    'md:flex-row',
   );
 
   footer.innerHTML = `

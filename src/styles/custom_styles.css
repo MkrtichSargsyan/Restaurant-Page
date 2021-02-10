@@ -1,5 +1,8 @@
-body,header {
-  width:100%;
+/* stylelint-disable declaration-colon-newline-after */
+
+body,
+header {
+  width: 100%;
   max-width: 1840px;
   margin: 0 auto;
 }

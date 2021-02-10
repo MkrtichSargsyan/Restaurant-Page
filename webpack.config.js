@@ -1,12 +1,12 @@
-const path = require("path");
+const path = require('path');
 
 module.exports = {
-  mode: "production",
-  entry: "./src/index.js",
+  mode: 'production',
+  entry: './src/index.js',
 
   output: {
-    filename: "main.js",
-    path: path.resolve(__dirname, "dist"),
+    filename: 'main.js',
+    path: path.resolve(__dirname, 'dist'),
   },
 
   module: {
@@ -14,21 +14,21 @@ module.exports = {
       {
         test: /\.css$/,
         use: [
-          "style-loader",
+          'style-loader',
           {
-            loader: "css-loader",
+            loader: 'css-loader',
             options: { importLoaders: 1 },
           },
-          "postcss-loader",
+          'postcss-loader',
         ],
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif|mp4)$/i,
         use: {
-          loader: "file-loader",
+          loader: 'file-loader',
           options: {
-            name: "[name].[hash].[ext]",
-            outputPath: "imgs",
+            name: '[name].[hash].[ext]',
+            outputPath: 'imgs',
           },
         },
       },
@@ -36,7 +36,7 @@ module.exports = {
   },
   devServer: {
     watchContentBase: true,
-    contentBase: path.resolve(__dirname, "dist"),
+    contentBase: path.resolve(__dirname, 'dist'),
     open: true,
   },
 };

@@ -22,18 +22,18 @@ header {
   color: white;
 }
 
-.nav_items li {
+.navItems li {
   text-align: center;
   margin-bottom: 30px;
   transition: color 0.2s ease-in;
 }
 
-.nav_items li:hover {
+.navItems li:hover {
   cursor: pointer;
   color: orange;
 }
 
-.nav_items li:active {
+.navItems li:active {
   color: white;
 }
 

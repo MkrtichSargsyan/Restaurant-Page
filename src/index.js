@@ -15,7 +15,7 @@ window.addEventListener(
 
 content.parentNode.insertBefore(header, content);
 
-const target = document.getElementById('menu_section');
+const target = document.getElementById('menuSection');
 
 if (target !== null) {
   document.addEventListener('scroll', () => {

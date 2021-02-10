@@ -42,5 +42,8 @@
     "page-flip": "^2.0.0",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
+  },
+  "optionalDependencies": {
+    "fsevents": "*"
   }
 }

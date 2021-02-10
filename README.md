@@ -31,7 +31,7 @@ npm install
 ### Usage
 
 ```
-npm run start
+npm start
 ```
 
 ## Author

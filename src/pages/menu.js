@@ -40,7 +40,7 @@ export default (content) => {
 
   menu.innerHTML = `
         <div id="book" class='overflow-hidden mr-16 mt-24'>
-            <div id='menuCover' class="my-page" data-density="hard">
+            <div id='menuCover' class="my-page cursor-pointer" data-density="hard">
               <div id='menuLogo' class = 'w-1/2 h-16 bg-no-repeat absolute inset-1/2 bg-contain'></div>
               <h1 class = 'text-4xl top-4 left-4 absolute text-white' style ="font-family: 'Dancing Script', cursive">
                 Open Our Menu

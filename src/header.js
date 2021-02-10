@@ -17,8 +17,8 @@ export default (() => {
   const navItems = document.createElement('ul');
   navItems.classList.add(
     'flex',
-    'text-black',
-    'bg-gray-200',
+    'text-white',
+    'bg-black',
     'h-full',
     'items-center',
   );

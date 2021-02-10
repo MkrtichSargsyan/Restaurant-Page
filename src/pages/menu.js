@@ -43,7 +43,7 @@ export default (content) => {
             <div id='menuCover' class="my-page" data-density="hard">
               <div id='menuLogo' class = 'w-1/2 h-16 bg-no-repeat absolute inset-1/2 bg-contain'></div>
               <h1 class = 'text-4xl top-4 left-4 absolute text-white' style ="font-family: 'Dancing Script', cursive">
-                Our Menu
+                Open Our Menu
               </h1>
               <img src=${menuCover} class = 'h-full w-full'></img>
             </div>

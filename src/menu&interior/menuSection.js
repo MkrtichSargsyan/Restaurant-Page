@@ -65,6 +65,8 @@ export default (() => {
   menuSectionDescription.innerText = 'Dear friend! Welcome to our restaurant. All dishes are prepared, issued and served in the best traditions of Armenian cuisine. Luxurios selection of drinks. Here you can read more about the menu.';
 
   const menuSectionButton = document.createElement('button');
+  menuSectionButton.setAttribute('route','#menu')
+
   menuSectionButton.classList.add(
     'text-left',
     'w-min',

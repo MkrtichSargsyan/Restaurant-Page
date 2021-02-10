@@ -8,7 +8,7 @@ Restaurant page built with ES6 modules, using webpack.
 ## Built With
 
 - HTML,
-- CSS,
+- CSS,git
 - VS Code
 - JavaScript
 - Tailwind.css

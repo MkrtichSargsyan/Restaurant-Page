@@ -13,5 +13,6 @@ export default (content)=>{
   content.appendChild(menu_section);
   content.appendChild(interior_section);
   content.appendChild(video);
+  document.getElementsByTagName('video')[0].play()
   content.appendChild(footer);
 }

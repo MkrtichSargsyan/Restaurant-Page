@@ -104,7 +104,7 @@ export default (content) => {
 
   const pageFlip = new PageFlip(document.getElementById('book'), {
     width: 300,
-    height: 400,
+    height: 500,
     showCover: true,
     maxShadowOpacity: 1,
   });

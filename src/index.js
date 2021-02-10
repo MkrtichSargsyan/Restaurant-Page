@@ -28,7 +28,6 @@ if (target !== null) {
 }
 
 const navButtons = Array.from(document.querySelectorAll('[route]'));
-console.log(navButtons);
 navButtons.forEach((route) => {
   route.addEventListener('click', (e) => {
     const path = e.target.attributes[0].value;

@@ -21,7 +21,12 @@
       {
         "js": "always"
       }
-   ]
+      
+   ],
+    "import/no-unresolved": [
+        2, 
+        { "caseSensitive": false }
+     ]
   },
   "ignorePatterns": [
     "dist/",

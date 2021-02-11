@@ -1,20 +1,20 @@
-import header from "../header";
-import contactBg from "../images/contactBg.jpg";
-import map from "../images/map.png";
+import header from '../header.js';
+import contactBg from '../images/contactBg.jpg';
+import map from '../images/map.png';
 
 export default (content) => {
-  content.innerHTML = "";
-  header.classList.remove("opacity-0");
-  const contact = document.createElement("section");
+  content.innerHTML = '';
+  header.classList.remove('opacity-0');
+  const contact = document.createElement('section');
   contact.classList.add(
-    "w-full",
-    "h-screen",
-    "bg-center",
-    "bg-no-repeat",
-    "bg-cover",
-    "flex",
-    "justify-center",
-    "items-start"
+    'w-full',
+    'h-screen',
+    'bg-center',
+    'bg-no-repeat',
+    'bg-cover',
+    'flex',
+    'justify-center',
+    'items-start',
   );
   contact.style.backgroundImage = `url(${contactBg})`;
 

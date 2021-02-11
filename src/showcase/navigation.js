@@ -28,7 +28,7 @@ export default (() => {
   navItems.classList.add('navItems', 'mt-28');
   navItems.innerHTML = `
       <li route='#menu'>menu<li>
-      <li>contacts<li>
+      <li route='#contact'>contacts<li>
       <li>interior<li>
       <li>about us<li>
   `;

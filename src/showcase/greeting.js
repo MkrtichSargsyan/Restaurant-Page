@@ -19,7 +19,7 @@ export default (() => {
       it is to a woman
     </h2>
     <div>
-      <button class="uppercase px-6 py-3 mr-3 outline-none rounded-full bg-yellow-600 text-blue-50 max-w-max shadow-sm hover:bg-yellow-500 transition-all duration-500">
+      <button route='#contact' class="uppercase px-6 py-3 mr-3 outline-none rounded-full bg-yellow-600 text-blue-50 max-w-max shadow-sm hover:bg-yellow-500 transition-all duration-500">
         CONTACT US
       </button>
       <button route='#menu' class="uppercase px-6 py-3 outline-none rounded-full border border-yellow-600 text-yellow-600 max-w-max shadow-sm hover:border-yellow-500 hover:text-yellow-500 transition-all duration-500">

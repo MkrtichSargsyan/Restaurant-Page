@@ -90,14 +90,14 @@ export default (content) => {
     menuPage(
       'Beverages',
       [arax, arax, arax, arax],
-      ['Artsakh vodka', 'Artsakh vodka', 'Artsakh vodka', 'Artsakh vodka'],
+      ['Vodka', 'Vodka', 'Vodka', 'Vodka'],
     ),
   );
   menuPagesContainer.appendChild(
     menuPage(
       '',
       [arax, arax, arax, arax],
-      ['Artsakh vodka', 'Artsakh vodka', 'Artsakh vodka', 'Artsakh vodka'],
+      ['Vodka', 'Vodka', 'Vodka', 'Vodka'],
     ),
   );
 

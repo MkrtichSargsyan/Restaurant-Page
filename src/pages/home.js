@@ -5,7 +5,6 @@ import interiorSection from '../menu&interior/interiorSection.js';
 import header from '../header.js';
 import video from '../how_to_cook/video.js';
 
-
 export default (content) => {
   content.innerHTML = '';
   header.classList.add('opacity-0');

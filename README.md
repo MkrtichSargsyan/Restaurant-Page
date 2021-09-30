@@ -16,7 +16,7 @@ Restaurant page built with ES6 modules, using webpack.
 
 ## Live Demo
 
-<a href= "https://restaurant-page-do205xims-mkrtichsargsyan.vercel.app/#menu" target="_blank">Live version</a>
+<a href= "https://restaurant-page-do205xims-mkrtichsargsyan.vercel.app" target="_blank">Live version</a>
 
 ## Getting Started
 
